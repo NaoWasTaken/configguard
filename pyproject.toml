@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "configguard"
+version = "0.1.0"
+description = "A configuration file validator"
+requires-python = ">=3.11"
+dependencies = [
+    "pyyaml",
+    "python-dotenv"
+]
